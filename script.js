@@ -69,7 +69,6 @@ const roundElement = document.getElementById("round");
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     let playerSelection = button.value;
-    console.log(playerSelection)
     let computerSelection = getComputerChoice();
     roundCount +=1;
     playRound(playerSelection, computerSelection);
