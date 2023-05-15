@@ -88,13 +88,11 @@ const winner = document.getElementById("winner");
 
 function proclaimWinner() {
     if (playerScore > computerScore) {
-        winner.textContent = "Player wins";
-        console.log("Player wins");
+        winner.textContent = "Player wins!";
       } else if (computerScore > playerScore) {
-        winner.textContent = "Computer wins";
-        console.log("Computer wins!");
-      } else winner.textContent = "Tie game";
-      console.log("Tie game!");
+        winner.textContent = "Computer wins!";
+      } else winner.textContent = "Tie game!";
+
       playerScore = 0;
       computerScore = 0;
       roundCount =1;

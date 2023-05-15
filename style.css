@@ -1,10 +1,18 @@
+body{
+    background-color: lightgray;
+}
+
 h1 {
     text-align: center;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 50px;
 }
 
 .rounds{
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .choices{
@@ -13,6 +21,33 @@ h1 {
     gap: 1em;
 }
 
+button{
+    border-radius: 20px;
+}
+
 img{
     max-width: 300px;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.winner{
+    text-align: center;
+    font-size: larger;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

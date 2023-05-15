@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock paper scissors</title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Rock, paper, scissors</h1>
+    <h1>Rock-Paper-Scissors</h1>
     <div class="rounds">
-        <p>Round:</p>
-        <p id="round">1</p>
+      <p>Round:</p>
+      <p id="round">1</p>
     </div>
     <div class="choices">
-      <button id="rock" value="rock"><img src="images/paper.png" alt=""></button>
-      <button id="paper" value="paper"><img src="images/paper.png" alt=""></button>
-      <button id="scissors" value="scissors"><img src="images/scissors.png" alt=""></button>
+      <button id="rock" value="rock">
+        <img src="images/paper.png" alt="" />
+      </button>
+      <button id="paper" value="paper">
+        <img src="images/paper.png" alt="" />
+      </button>
+      <button id="scissors" value="scissors">
+        <img src="images/scissors.png" alt="" />
+      </button>
     </div>
     <div class="score">
-        <div class="score">
-            <p>Player score:</p>
-            <p id="playerScore">0</p>
-            <p>Computer score:</p>
-            <p id="computerScore">0</p>
-        </div>
+      <p>Player score:</p>
+      <p id="playerScore">0</p>
+      <p>Computer score:</p>
+      <p id="computerScore">0</p>
     </div>
-    <div id="winner"></div>
+    <div id="winner" class="winner"></div>
   </body>
+  <footer>
+    © 2023 Aleksandar Misanovic 
+  </footer>
 </html>
