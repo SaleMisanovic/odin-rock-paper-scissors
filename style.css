@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.rounds{
+    display: flex;
+    justify-content: center;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+img{
+    max-width: 300px;
+}
