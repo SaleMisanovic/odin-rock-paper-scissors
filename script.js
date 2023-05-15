@@ -73,7 +73,7 @@ buttons.forEach((button) => {
     let computerSelection = getComputerChoice();
     roundCount +=1;
     playRound(playerSelection, computerSelection);
-    if (roundCount === 6) {
+    if (computerScore === 5 || playerScore===5) {
         proclaimWinner();
     } 
 
